@@ -1,0 +1,416 @@
+.logo{
+	height: 20vw;
+	max-height: 150px;
+}
+
+.embr{
+	float: right;
+	width: 33%;
+	max-width: 300px;
+	border-style: outset;
+	border-width: 3px;
+	border-color:  #5210FF;
+	border-radius: 2px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+
+.embl{
+	float: left;
+	clear: left;
+	width: 33%;
+	max-width: 300px;
+	border-style: outset;
+	border-width: 3px;
+	border-color:  #5210FF;
+	border-radius: 2px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+
+.embrh{
+	float: right;
+	max-height: 100%;
+	max-width: 50%;
+	border-style: outset;
+	border-width: 3px;
+	border-color:  #5210FF;
+	border-radius: 2px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+
+.embpng{
+	float: right;
+	width: 33%;
+	max-width: 300px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+
+#banner{
+	size: 100%;
+	background-color: black;
+	position: relative;
+	max-height: 150px;
+	width: 100%;
+}
+
+#title{
+	font-size: 8vw;
+	
+	font-family: 'AndroidInsominiaR', san-serif;
+	color: #5210FF;
+	position:absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	margin-right: 5vw;
+	margin-left: 5vw;
+	z-index: 0;
+}
+
+ol{
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-left: 6vw;
+	padding-right: 2vw;
+}
+
+ol li{
+	font-family: 'AndroidInsominiaR', sans-serif;
+	color: #000C47;
+	list-style-type: upper-roman;
+	font-size: 11pt;
+}
+
+#menu {
+	position: relative;
+	padding-bottom: 12pt;
+	margin: 0px auto;
+	font-family: 'AndroidInsominiaR', san-serif;
+	color: #5210FF;
+	z-index: 5000;
+}
+
+#menu ul li ul {
+	position: absolute; 
+	display: none;
+}
+
+
+
+.menu {
+}
+.menu li{
+	float: left;
+	margin: 0px;
+	background-color: #000C47;
+	border-top-style: solid;
+	border-top-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-color:  #5210FF;
+	border-radius: .5px;
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+
+.menu li:hover{
+	background-color: #7AD7F5;
+}
+
+#menu {
+	padding-bottom: 12pt;
+	margin: 0px auto;
+	position: relative;
+	list-style: none;
+	padding: 0vw;
+}
+#menu>ul {
+	display: block;
+}
+#menu li { /* All LIs in #menu */
+	margin: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+#menu>ul>li { 
+	float: left;
+}
+#menu ul li ul {
+	position: absolute; 
+	display: none;
+	margin: 0px;
+	
+}
+
+#menu ul li ul li{
+	margin-top: 1em;
+	position:relative;
+	float: left;
+	clear: left;
+	margin: 0px;
+	background-color: #000;
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #5210FF;
+	border-radius: .5px;
+	text-align: center;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	display:block;
+	width:100%;
+}
+
+#icon {
+	display: none;
+}
+
+.optbuttonprime {
+	width: 34%;
+}
+
+.optbutton {
+	width: 33%;
+}
+
+.menu li div{
+	font-size: 2vw;
+	height: 2vw;
+	color:  #5210FF;
+	font-family: 'Roboto-Thin' san-serif;
+	display: block;
+	text-decoration: none;
+	z-index: 1;
+}
+
+
+.clicky{ 
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  /* edit: added z-index */
+  z-index: 4;
+} 
+
+.button{
+	display: block;
+	
+}
+
+.content{
+	opacity: .95;
+	border-style: inset;
+	border-width: 6px;
+	border-color:  #5210FF;
+	border-radius: 4px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	background-color: #7AD7F5;
+	margin: 3vw;
+	margin-top: 6vw;
+	height: 100%;
+	z-index: 0;
+}
+
+.subsection{
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.date{
+	font-size: 10pt;
+	color: #5210FF;
+	font-family: 'Roboto-Thin', serif;
+}
+
+.intro{
+	color: #000047;
+	font-family: 'Roboto-Thin', serif;
+	font-size: 11pt;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.sectionhead{
+	font-family: 'Roboto-Regular', serif;
+	text-align: center;
+	font-size: 6vw;
+	color: #5210FF;
+}
+
+.link{
+	text-align: center;
+}
+
+body{
+	background-image: url("images/circuits2.jpg");
+	background-repeat: no repeat;
+	height: 100%;
+	background-size: 125%;
+}
+
+h1{
+	font-size: 6vw;
+	font-family: 'AndroidInsominiaR', san-serif;
+	color: #000047;
+}
+
+h2{
+	font-size: 4vw;
+	font-family: 'Roboto-Thin-Italic', san-serif;
+	color: black;
+	padding: 7px;
+}
+
+h3{
+	padding: 5px;
+	font-size: 3vw;
+	font-family: 'Roboto-Thin', serif;
+	color:#000C47;
+}
+
+.contactcontent{
+	background-color: #FFF;
+	border: 2px inset #FFF;
+	padding: 2em;
+	min-height: 50%;
+}
+
+.ui-accordion{
+	padding-left:2.2em;
+}
+
+.ui-accordion-icons{
+	padding-left:2.2em;
+}
+
+.ui-accordion{
+	display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0px 0px;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    min-height: 0px;
+    font-size: 100%;
+}
+
+.ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin: 2px 0px 0px;
+    padding: 0.5em 0.5em 0.5em 0.7em;
+    min-height: 0px;
+    font-size: 100%;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 4px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 4px;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 4px;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 2px outset  #5210FF;
+    background:  #000 url("images/glass.png") repeat-x scroll 50% 50%;
+    font-weight: normal;
+    color: #FFF;
+}
+p{
+	font-family: 'Roboto-Thin', serif;
+	color: #5210FF;
+	font-size: 2vw;
+	padding: 0px 2vw;
+}
+
+pre{
+	font-family: 'Roboto-Thin', serif;
+	color: #5210FF;
+	font-size: 2vw;
+	padding: 0px 2vw;
+}
+
+.list{
+	list-style: square;
+	color: #5210Ff;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	font-family: 'Roboto-Thin', serif;
+	font-size: 2vw;
+}
+
+.metalist{
+	margin-top: 1vw;
+	margin-bottom:1vw;
+}
+
+a{
+	font-family: 'AndroidInsominiaR', san-serif;
+	color: #5210FF;
+	text-decoration: none;
+}
+a:hover{
+	color:  #5210FF;
+}
+
+@font-face{ 
+	font-family: 'AndroidInsominiaR';
+	src: url('fonts/android_insomnia_regular-webfont.ttf') format('truetype');
+
+}
+
+@font-face{ 
+	font-family: 'GenaiI';
+	src: url('fonts/genai102-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'GenarR';
+	src: url('fonts/genar102-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Neuropol';
+	src: url('fonts/neuropol-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Black';
+	src: url('fonts/roboto-black-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Bold';
+	src: url('fonts/roboto-bold-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Condensed';
+	src: url('fonts/roboto-condensed-webfont.ttf') format('truetype'),
+\
+}
+@font-face{ 
+	font-family: 'Roboto-Regular';
+	src: url('fonts/roboto-regular-webfont.ttf') format('truetype'),
+\
+}
+@font-face{ 
+	font-family: 'Roboto-Thin-Italic';
+	src: url('fonts/roboto-thinitalic-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Thin';
+	src: url('fonts/roboto-thin-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Znikomit';
+	src: url('fonts/znikomit-webfont.ttf') format('truetype');
+}

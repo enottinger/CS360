@@ -1,0 +1,154 @@
+.logo{
+	height: 20vw;
+	max-height: 150px;
+}
+
+.emb{
+	float: right;
+	width: 33%;
+	border-style: outset;
+	border-width: 3px;
+	border-color: #FFF400;
+	border-radius: 2px;
+	margin-right: 1vw;
+	margin-left: 1vw;
+}
+#banner{
+	size: 100%;
+	background-color: black;
+	position: relative;
+	max-height: 150px;
+	width: 100%;
+}
+
+#title{
+	font-size: 8vw;
+	
+	font-family: 'AndroidInsominiaR', san-serif;
+	color: #FFF400;
+	position:absolute;
+	top: 50%;
+	height: 15vw;
+	margin-top: -3vw;
+	margin-right: 5vw;
+	margin-left: 5vw;
+}
+
+.menu ul{
+	
+}
+
+.menu li{
+	float: left;
+	
+	background-color: #000C47;
+	
+	text-align: center;
+	
+	
+}
+.menu li a{
+	font-size: 2vw;
+	height: 2vw;
+	color: #FFF400;
+	font-family: 'Roboto-Thin' san-serif;
+}
+.homeopt {
+	width: 20%;
+}
+
+.otheropt{
+	width: 16%;
+}
+
+.content{
+	border-style: inset;
+	border-width: 6px;
+	border-color: #FFF400;
+	border-radius: 4px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	background-color: #9DE389;
+	margin: 3vw;
+	height: 100%;
+}
+
+.subsection{
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+body{
+	background-color: #165902;
+	height: 100%;
+	
+}
+
+h1{
+	font-size: 6vw;
+	font-family: 'AndroidInsominiaR', san-serif;
+	color: #000047;
+}
+
+h2{
+	font-size: 4vw;
+	font-family: 'Znikomit', san-serif;
+	color: #5210FF;
+	padding: 3px;
+}
+
+p{
+	font-family: 'Roboto-Regular', serif;
+	color: #165902;
+}
+
+@font-face{ 
+	font-family: 'AndroidInsominiaR';
+	src: url('fonts/android_insomnia_regular-webfont.ttf') format('truetype');
+
+}
+
+@font-face{ 
+	font-family: 'GenaiI';
+	src: url('fonts/genai102-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'GenarR';
+	src: url('fonts/genar102-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Neuropol';
+	src: url('fonts/neuropol-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Black';
+	src: url('fonts/roboto-black-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Bold';
+	src: url('fonts/roboto-bold-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Condensed';
+	src: url('fonts/roboto-condensed-webfont.ttf') format('truetype'),
+\
+}
+@font-face{ 
+	font-family: 'Roboto-Regular';
+	src: url('fonts/roboto-regular-webfont.ttf') format('truetype'),
+\
+}
+@font-face{ 
+	font-family: 'Roboto-Thin-Italic';
+	src: url('fonts/roboto-thinitalic-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Roboto-Thin';
+	src: url('fonts/roboto-thin-webfont.ttf') format('truetype');
+}
+@font-face{ 
+	font-family: 'Znikomit';
+	src: url('fonts/znikomit-webfont.ttf') format('truetype');
+}
