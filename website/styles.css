@@ -277,6 +277,13 @@ h3{
 	color:#000C47;
 }
 
+form{
+	font-size: 2vw;
+	font-family: 'Roboto-Thin', serif;
+	color:#000C47;
+	text-align: center;
+}
+
 p{
 	font-family: 'Roboto-Thin', serif;
 	color: #5210FF;
