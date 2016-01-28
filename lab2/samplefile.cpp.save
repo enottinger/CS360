@@ -1,0 +1,82 @@
+#include <iostream>
+#include <stdlib.h>
+#include <string>
+#include <sys/types.h>
+#include <sys/sockets>
+#include <netinet/in.h>
+
+int main()
+{
+	std::cout <<"hello!" << std::endl;
+
+	//parse input params
+
+	std:: port_num = atoi(argv[1]);
+
+	//where all of your stuff is
+	// localhost:50000/hello.html
+	// hello.html should be in content_folder
+	std::string content_folder = argv[2];
+	// cout checks
+
+	// socket stuff
+			//HTTP          TCP
+	int fd = socket( AF_INET, SOCK_SCREAM, 0);
+	if(fd == -1)
+	{
+		std::cout << ":(" << std::endl;
+		exit(0);
+	}
+	
+	//Setup socket address
+	struct sockaddr_in serv_addr;
+	serv_addr.sin_family = AF_INET;
+	serv_addr.sin_port = htons( poer_num );
+	serv_addr.sin_addr.s_addr = INADDR_ANY;//any address can be connected to this socket;
+
+	//bind
+	int sock_len = sizeof( sockaddr_in );
+	int bind_return = bind( fd,
+				( sockaddr* ) &serv_addr,
+				( socklen_t) sizeof( serv_addr ) );
+	
+	// listen?
+	int listen_return = listen( fd, 1000);
+
+	//check the listen return value
+
+	//accept a connection!
+	// make empty sockaddr to fill in when
+	//connection is made;
+	struct sockaddr_in cli_addr;
+	int conn_sock = accept( fd,
+		( sockaddr* ) &cli_addr,
+		( socklen_t* ) &sock_len );
+
+	//process get request
+	// parse the headers, read stuff in
+	//use sample.cpp - change to cs Utils
+	
+	std::vector<char* >headers;
+	GetHeaderLines( headers, conn_sock, false);
+	for( int i = 0; i < headers.size(); i++)
+	{
+		//print out headers
+	}
+
+	// ?????serve files or something
+	//check out requestmaker.com
+	//Important response headers
+	//HTTP/1.1 200 OK
+	//Content-Type (only need to handle four types)
+	//Content-Length
+
+	//parse the get request for file extension
+	//for the content type
+	//use stat to determine type of request
+	// - folder
+	// - regular file
+	// - invalid
+	std::
+	write( conn_sock
+}

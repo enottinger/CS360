@@ -9,7 +9,7 @@
 
 #define SOCKET_ERROR        -1
 #define BUFFER_SIZE         100
-#define MESSAGE             "This is the message I'm sending back and forth"
+#define MESSAGE             "Hello World! Hello CS360!"
 #define QUEUE_SIZE          5
 
 int main(int argc, char* argv[])
