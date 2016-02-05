@@ -1,5 +1,5 @@
 stat: sigint.cpp
 	g++ -o sigint sigint.cpp
 
-thread: pthread.cpp
-	g++ -o pthread pthread.cpp
+thread: threads.cpp
+	g++ -o threadEx threads.cpp -pthread

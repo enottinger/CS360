@@ -1,0 +1,587 @@
+
+Starting server
+Making socket
+Binding to port 3000
+Could not connect to host
+
+Starting server
+Making socket
+Binding to port 3000opened socket as fd (3) on port (3000) for stream i/o
+Server
+              sin_family        = 2
+              sin_addr.s_addr   = 0
+              sin_port          = 3000
+
+Making a listen queue of 5 elements
+Waiting for a connection
+
+Got a connection from 1474BB80 (49001)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (33732)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/hello.txt
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 6
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (8520)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/testhtml.html/
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (51673)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/testhtml.html
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 328
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (50905)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/test4.jpg
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: image/jpg
+Content-Length: 51793
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (47809)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/test3.gif
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Content-Length: 12855
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (3493)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/testhtml.html/
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (18081)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/test2.txt/
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (30858)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/hello.txt
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 6
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (25967)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/test3.gif
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: image/gif
+Content-Length: 12855
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (13599)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (19988)
+
+Request Type: HTTP_GET
+requestExtension: /server
+RequestHTTPType: HTTP/1.1
+
+In File
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (53001)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (39610)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (14529)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (40699)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (48209)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (37987)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (25418)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (45630)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (23708)
+
+Request Type: HTTP_GET
+requestExtension: /Makefile
+RequestHTTPType: HTTP/1.1
+
+In File
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (51551)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (38381)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (27953)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (38120)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (39277)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (37689)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (40352)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (22011)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (19470)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1474BB80 (35600)
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1974BB80 (25271)
+
+Request Type: HTTP_GET
+requestExtension: /test3.gif
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1974BB80 (21559)
+
+Request Type: HTTP_GET
+requestExtension: /favicon.ico
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1974BB80 (15838)
+
+Request Type: HTTP_GET
+requestExtension: /test3.gif
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1974BB80 (2189)
+
+Request Type: HTTP_GET
+requestExtension: /test1.html
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1974BB80 (34411)
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 1974BB80 (28209)
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53273)
+
+Request Type: HTTP_GET
+requestExtension: /cs360
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53272)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53274)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/
+RequestHTTPType: HTTP/1.1
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53275)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/test4.jpg
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: image/jpg
+Content-Length: 51793
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53276)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/hello.txt
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 6
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53277)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/testhtml.html/
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53278)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/testhtml.html
+RequestHTTPType: HTTP/1.1
+
+In File
+HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 328
+
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53279)
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from A1ECDB42 (53280)
+
+Request Type: HTTP_GET
+requestExtension: /serverfile/test2.txt/
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 474BB80 (45180)
+
+Request Type: HTTP_GET
+requestExtension: /cs360
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 474BB80 (27705)
+
+Request Type: HTTP_GET
+requestExtension: /cs360/
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 474BB80 (51445)
+
+Request Type: HTTP_GET
+requestExtension: /cs360
+RequestHTTPType: HTTP/1.1
+
+In 404
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 474BB80 (19608)
+
+Request Type: HTTP_GET
+requestExtension: /
+RequestHTTPType: HTTP/1.1
+Socket Error is:: Connection reset by peer
+Read Failed on file descriptor 4 messagesize = 0
+
+In Directory
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 474BB80 (34944)
+
+Closing the socket
+Waiting for a connection
+
+Got a connection from 9AACF859 (57301)
