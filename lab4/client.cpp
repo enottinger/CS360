@@ -8,14 +8,15 @@
 #include <stdlib.h>
 #include <sys/epoll.h>
 
-#define SOCKET_ERROR        -1
+//#define SOCKET_ERROR        -1
 #define BUFFER_SIZE         100
 #define HOST_NAME_SIZE      255
 
 #define NCONNECTIONS	   20
 int  main(int argc, char* argv[])
 {
-    int hSocket;                 /* handle to socket */
+    int SOCKET_ERROR = -1;
+	int hSocket[NCONNECTIONS];                 /* handle to socket */
     struct hostent* pHostInfo;   /* holds info about a machine */
     struct sockaddr_in Address;  /* Internet socket address stuct */
     long nHostAddress;
@@ -42,7 +43,7 @@ int  main(int argc, char* argv[])
     /* make a socket */
     hSocket[i]=socket(AF_INET,SOCK_STREAM,IPPROTO_TCP);
 
-    if(hSocket == SOCKET_ERROR)
+    if(hSocket[i] == SOCKET_ERROR)
     {
         printf("\nCould not make a socket\n");
         return 0;
@@ -84,10 +85,11 @@ int  main(int argc, char* argv[])
     printf("\nWriting \"%s\" to server",pBuffer);
     for(int i =0; i < NCONNECTIONS; i++)
     {
-	struct epoll_event;
+	struct epoll_event event;
 	int nr_events = epoll_wait(epollfd, &event, 1, -1);
 	char buffer[10000];
 	int rval = read(event.data.fd,buffer,10000);
+
     printf("\nGot %d from %d\nClosing socket\n",rval, event.data.fd);
     /* close socket */                       
     if(close(event.data.fd) == SOCKET_ERROR)
