@@ -1,4 +1,7 @@
-all: client
+all: webtest
+webtest: timeclient.cpp
+	g++ -o webtest -g timeclient.cpp
+
 client: client.cpp
 	g++ -o client client.cpp
 

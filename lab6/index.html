@@ -1,0 +1,143 @@
+<html>
+<head>
+<title>City Finder</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script>
+$(document).ready(function() {
+$( "#cityfield" ).keyup(function() {
+ 
+var url = "https://students.cs.byu.edu/~clement/CS360/ajax/getcity.cgi?q="+$("#cityfield").val();
+$.getJSON(url,function(data) {    var everything;
+    everything = "<ul>";
+    $.each(data, function(i,item) {
+      everything += "<li> "+data[i].city;
+    });
+    everything += "</ul>";
+    $("#txtHint").html(everything);
+  })
+  .done(function() { console.log('getJSON request succeeded!'); })
+  .fail(function(jqXHR, textStatus, errorThrown) { 
+    console.log('getJSON request failed! ' + textStatus); 
+    console.log("incoming "+jqXHR.responseText);
+  })
+  .always(function() { console.log('getJSON request ended!');
+  })
+  .complete(function() { console.log("complete"); });
+});
+});
+</script>
+
+<script>
+$(document).ready(function(){
+$("#button").click(function(event){
+  
+  var value = $("#cityfield").val();
+  console.log(value);
+  event.preventDefault();
+  
+  $("#dispcity").text(value);
+
+
+  var myurl= "https://api.wunderground.com/api/f6d07c6d9fb913e3/geolookup/conditions/q/UT/";
+  myurl += value;
+  myurl += ".json";
+  console.log(myurl);
+  $.ajax({
+    url : myurl,
+    dataType : "jsonp",
+   success : function(parsed_json) {
+      var location = parsed_json['location']['city'];
+      var temp_string = parsed_json['current_observation']['temperature_string'];
+      var current_weather = parsed_json['current_observation']['weather'];
+      everything = "<ul>";
+      everything += "<li>Location: "+location;
+      everything += "<li>Temperature: "+temp_string;
+      everything += "<li>Weather: "+current_weather;
+      everything += "</ul>";
+      $("#weather").html(everything);
+    }
+  });
+
+ 
+});
+
+});
+
+</script>
+
+
+<script>
+$(document).ready(function(){
+$("#button2").click(function(event){
+  
+  var value = $("#pokefield").val();
+  console.log(value);
+  event.preventDefault();
+
+
+  var myurl= "http://pokeapi.co/api/v2/pokemon/";
+  myurl += value;
+  myurl += "/";
+  console.log(myurl);
+
+
+ $.getJSON(myurl,function(data) {    var everything;
+    var name = data.name;
+      var types = data.types;
+      var typestr = "";
+      var abistr = "";
+      var abilities = data.abilities;
+      everything = "<ul>";
+      everything += "<li>Name: "+name;
+
+      for(var i = 0; i < types.length; i++)
+      {
+ 	 typestr += types[i].type.name + " "
+      }
+
+      for(var i = 0; i < types.length; i++)
+      {
+ 	 abistr += abilities[i].ability.name + " "
+      }
+
+      everything += "<li>Types: "+typestr;
+      everything += "<li>Abilities: "+abistr;
+      everything += "</ul>";
+      $("#pokemon").html(everything);
+  })
+  .done(function() { console.log('getJSON request succeeded!'); })
+  .fail(function(jqXHR, textStatus, errorThrown) { 
+    console.log('getJSON request failed! ' + textStatus); 
+    console.log("incoming "+jqXHR.responseText);
+  })
+  .always(function() { console.log('getJSON request ended!');
+  })
+  .complete(function() { console.log("complete"); });
+
+});
+
+});
+
+</script>
+
+
+</head>
+<body>
+<form>
+Enter A Utah City: <input type="text" id="cityfield" value=""><br>
+Suggestion: <span id="txtHint">Empty</span>
+<input id="button" type="submit" value="Submit">
+</form>
+<p>City</p>
+<textarea id="dispcity">No City</textarea>
+<p>Current Weather</p>
+<div id="weather">No weather</div>
+<form>
+Enter a number (1-700): <input type="text" id="pokefield" value=""><br>
+<input id="button2" type="submit" value="Submit">
+</form>
+<p>Pokemon</p>
+<div id="pokemon">No pokemon selected</div>
+</body>
+</html>
