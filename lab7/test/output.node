@@ -1,0 +1,40 @@
+nohup: ignoring input
+
+> test@0.0.0 start /opt/bitnami/apache2/htdocs/cs360/lab7/test
+> node ./bin/www
+
+Port 3000 is already in use
+
+npm ERR! Linux 3.13.0-71-generic
+npm ERR! argv "/opt/bitnami/nodejs/bin/.node.bin" "/opt/bitnami/nodejs/bin/npm" "start"
+npm ERR! node v5.1.1
+np[0mGET / [36m304 [0m0.425 ms - -[0m
+[0mGET / [32m200 [0m1.592 ms - 3553[0m
+[0mGET /favicon.ico [33m404 [0m308.584 ms - 1245[0m
+In Getcity
+req.query
+/^P/
+[0mGET /getcity?q=P [32m200 [0m3.635 ms - 304[0m
+In Getcity
+req.query
+/^P/
+[0mGET /getcity?q=P [36m304 [0m1.642 ms - -[0m
+In Getcity
+req.query
+/^Pr/
+[0mGET /getcity?q=Pr [32m200 [0m0.672 ms - 57[0m
+In Getcity
+req.query
+/^Pri/
+[0mGET /getcity?q=Pri [32m200 [0m1.480 ms - 18[0m
+In Getcity
+req.query
+/^Pric/
+[0mGET /getcity?q=Pric [32m200 [0m1.825 ms - 18[0m
+In Getcity
+req.query
+/^Price/
+[0mGET /getcity?q=Price [32m200 [0m0.907 ms - 18[0m
+[0mGET / [36m304 [0m0.440 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m40.064 ms - 1245[0m
+[0mGET / [36m304 [0m1.001 ms - -[0m

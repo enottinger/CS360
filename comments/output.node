@@ -1,0 +1,59 @@
+nohup: ignoring input
+
+> comments@0.0.0 start /opt/bitnami/apache2/htdocs/cs360/comments
+> node ./bin/www
+
+connection error: { [Error: Trying to open unclosed connection.] state: 2 }
+Connected
+Connected to User Database
+[0mGET / [32m200 [0m6.568 ms - 1049[0m
+[0mGET /javascripts/comments.js [36m304 [0m2.189 ms - -[0m
+[0mGET /comments [33m404 [0m8.814 ms - 1795[0m
+In the GET route?
+[ { __v: 0, _id: 56e06bc7080370dc36f775b2 },
+  { __v: 0, _id: 56e06bffef38fef636ae11b9 },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06c786672b3263773e71d },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06ccb23d7c85b3726272c },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06d55a68dfe733734c3bf },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e250ae36fdf37323547 },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e778306b3f737b70a36 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06e7f8306b3f737b70a37 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06f32387dd70f38deaa67 },
+  { __v: 0,
+    Comment: 'Ello.',
+    Name: 'Clement',
+    _id: 56e06f57387dd70f38deaa68 },
+  { __v: 0,
+    Comment: 'Hello Again',
+    Name: 'Elizabeth',
+    _id: 56e6ffbbe3d14a30748c6a9a },
+  { __v: 0,
+    Comment: 'This isn\'t justice!',
+    Name: 'Coby',
+    _id: 56e707c2080771da74b00314 },
+  { __v: 0,
+    Comment: 'I want to be a marine!',
+    Name: 'Coby',
+    _id: 56e732b6b8b98a45765b7cb4 } ]
+[0mGET /comment [36m304 [0m22.509 ms - -[0m
