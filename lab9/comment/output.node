@@ -1,0 +1,15 @@
+nohup: ignoring input
+
+> comment@0.0.0 start /opt/bitnami/apache2/htdocs/cs360/lab9/comment
+> node ./bin/www
+
+[0mGET / [36m304 [0m5.854 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m1.459 ms - -[0m
+[0mGET /comments [32m200 [0m17.969 ms - 679[0m
+[0mGET / [36m304 [0m0.369 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.304 ms - -[0m
+[0mGET /comments [36m304 [0m4.000 ms - -[0m
+[0mPUT /comments/56f0995787a371f74c8cd65d/upvote [32m200 [0m16.823 ms - 90[0m
+[0mGET / [36m304 [0m0.707 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m0.280 ms - -[0m
+[0mGET /comments [32m200 [0m4.371 ms - 679[0m

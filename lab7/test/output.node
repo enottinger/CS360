@@ -38,3 +38,8 @@ req.query
 [0mGET / [36m304 [0m0.440 ms - -[0m
 [0mGET /favicon.ico [33m404 [0m40.064 ms - 1245[0m
 [0mGET / [36m304 [0m1.001 ms - -[0m
+[0mPOST /comments [33m404 [0m54.786 ms - 1245[0m
+[0mPUT /comments/56e999444f01189011ac3dfa/upvote [33m404 [0m17.220 ms - 1245[0m
+[0mGET / [32m200 [0m3.397 ms - 3553[0m
+[0mGET /favicon.ico [33m404 [0m17.738 ms - 1245[0m
+[0mGET /favicon.ico [33m404 [0m9.953 ms - 1245[0m

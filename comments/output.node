@@ -57,3 +57,225 @@ In the GET route?
     Name: 'Coby',
     _id: 56e732b6b8b98a45765b7cb4 } ]
 [0mGET /comment [36m304 [0m22.509 ms - -[0m
+[0mGET / [36m304 [0m0.679 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.569 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.283 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.388 ms - -[0m
+In the GET route?
+[ { __v: 0, _id: 56e6f8e224f9f65a73728a33 },
+  { __v: 0,
+    AvatarURL: 'http://cdn.myanimelist.net/images/characters/11/49289.jpg',
+    Username: 'Coby',
+    _id: 56e6f98d24f9f65a73728a34 },
+  { __v: 0,
+    AvatarURL: 'http://images5.fanpop.com/image/photos/29800000/Robin-one-piece-29883225-960-720.jpg',
+    Username: 'Elizabeth',
+    _id: 56e6ff8fe3d14a30748c6a99 },
+  { __v: 0,
+    AvatarURL: '',
+    Username: '',
+    _id: 56e73108b8b98a45765b7cb3 } ]
+[0mGET /users [36m304 [0m5.403 ms - -[0m
+[0mGET /undefined [33m404 [0m2.069 ms - 1795[0m
+In the GET route?
+[ { __v: 0, _id: 56e06bc7080370dc36f775b2 },
+  { __v: 0, _id: 56e06bffef38fef636ae11b9 },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06c786672b3263773e71d },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06ccb23d7c85b3726272c },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06d55a68dfe733734c3bf },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e250ae36fdf37323547 },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e778306b3f737b70a36 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06e7f8306b3f737b70a37 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06f32387dd70f38deaa67 },
+  { __v: 0,
+    Comment: 'Ello.',
+    Name: 'Clement',
+    _id: 56e06f57387dd70f38deaa68 },
+  { __v: 0,
+    Comment: 'Hello Again',
+    Name: 'Elizabeth',
+    _id: 56e6ffbbe3d14a30748c6a9a },
+  { __v: 0,
+    Comment: 'This isn\'t justice!',
+    Name: 'Coby',
+    _id: 56e707c2080771da74b00314 },
+  { __v: 0,
+    Comment: 'I want to be a marine!',
+    Name: 'Coby',
+    _id: 56e732b6b8b98a45765b7cb4 } ]
+[0mGET /comment [36m304 [0m4.696 ms - -[0m
+In the GET route?
+[ { __v: 0, _id: 56e06bc7080370dc36f775b2 },
+  { __v: 0, _id: 56e06bffef38fef636ae11b9 },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06c786672b3263773e71d },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06ccb23d7c85b3726272c },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06d55a68dfe733734c3bf },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e250ae36fdf37323547 },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e778306b3f737b70a36 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06e7f8306b3f737b70a37 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06f32387dd70f38deaa67 },
+  { __v: 0,
+    Comment: 'Ello.',
+    Name: 'Clement',
+    _id: 56e06f57387dd70f38deaa68 },
+  { __v: 0,
+    Comment: 'Hello Again',
+    Name: 'Elizabeth',
+    _id: 56e6ffbbe3d14a30748c6a9a },
+  { __v: 0,
+    Comment: 'This isn\'t justice!',
+    Name: 'Coby',
+    _id: 56e707c2080771da74b00314 },
+  { __v: 0,
+    Comment: 'I want to be a marine!',
+    Name: 'Coby',
+    _id: 56e732b6b8b98a45765b7cb4 } ]
+[0mGET /comment [32m200 [0m7.182 ms - 1000[0m
+[0mGET /favicon.ico [33m404 [0m1.896 ms - 1795[0m
+[0mGET / [32m200 [0m1.320 ms - 1049[0m
+[0mGET /javascripts/comments.js [32m200 [0m0.457 ms - 2312[0m
+In the GET route?
+[ { __v: 0, _id: 56e6f8e224f9f65a73728a33 },
+  { __v: 0,
+    AvatarURL: 'http://cdn.myanimelist.net/images/characters/11/49289.jpg',
+    Username: 'Coby',
+    _id: 56e6f98d24f9f65a73728a34 },
+  { __v: 0,
+    AvatarURL: 'http://images5.fanpop.com/image/photos/29800000/Robin-one-piece-29883225-960-720.jpg',
+    Username: 'Elizabeth',
+    _id: 56e6ff8fe3d14a30748c6a99 },
+  { __v: 0,
+    AvatarURL: '',
+    Username: '',
+    _id: 56e73108b8b98a45765b7cb3 } ]
+[0mGET /users [32m200 [0m2.543 ms - 414[0m
+[0mGET /undefined [33m404 [0m0.883 ms - 1795[0m
+POST comment route
+{ Name: 'a', Comment: 'a' }
+{ _id: 56e8804b33f427a779122c18, Comment: 'a', Name: 'a' }
+{ _id: 56e8804b33f427a779122c18, Comment: 'a', Name: 'a', __v: 0 }
+[0mPOST /comment [32m200 [0m28.315 ms - 2[0m
+In the GET route?
+[ { __v: 0, _id: 56e06bc7080370dc36f775b2 },
+  { __v: 0, _id: 56e06bffef38fef636ae11b9 },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06c786672b3263773e71d },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06ccb23d7c85b3726272c },
+  { __v: 0,
+    Comment: 'sdf',
+    Name: 'Hello',
+    _id: 56e06d55a68dfe733734c3bf },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e250ae36fdf37323547 },
+  { __v: 0,
+    Comment: 'Hello',
+    Name: 'Clement',
+    _id: 56e06e778306b3f737b70a36 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06e7f8306b3f737b70a37 },
+  { __v: 0,
+    Comment: 'This is your professor',
+    Name: 'Clement',
+    _id: 56e06f32387dd70f38deaa67 },
+  { __v: 0,
+    Comment: 'Ello.',
+    Name: 'Clement',
+    _id: 56e06f57387dd70f38deaa68 },
+  { __v: 0,
+    Comment: 'Hello Again',
+    Name: 'Elizabeth',
+    _id: 56e6ffbbe3d14a30748c6a9a },
+  { __v: 0,
+    Comment: 'This isn\'t justice!',
+    Name: 'Coby',
+    _id: 56e707c2080771da74b00314 },
+  { __v: 0,
+    Comment: 'I want to be a marine!',
+    Name: 'Coby',
+    _id: 56e732b6b8b98a45765b7cb4 },
+  { __v: 0, Comment: 'a', Name: 'a', _id: 56e8804b33f427a779122c18 } ]
+[0mGET /comment [32m200 [0m6.051 ms - 1068[0m
+POST comment route
+{ Username: 'a', AvatarURL: 'a' }
+{ _id: 56e8805033f427a779122c19, AvatarURL: 'a', Username: 'a' }
+{ _id: 56e8805033f427a779122c19,
+  AvatarURL: 'a',
+  Username: 'a',
+  __v: 0 }
+[0mPOST /users [32m200 [0m4.551 ms - 2[0m
+In the GET route?
+[ { __v: 0, _id: 56e6f8e224f9f65a73728a33 },
+  { __v: 0,
+    AvatarURL: 'http://cdn.myanimelist.net/images/characters/11/49289.jpg',
+    Username: 'Coby',
+    _id: 56e6f98d24f9f65a73728a34 },
+  { __v: 0,
+    AvatarURL: 'http://images5.fanpop.com/image/photos/29800000/Robin-one-piece-29883225-960-720.jpg',
+    Username: 'Elizabeth',
+    _id: 56e6ff8fe3d14a30748c6a99 },
+  { __v: 0,
+    AvatarURL: '',
+    Username: '',
+    _id: 56e73108b8b98a45765b7cb3 },
+  { __v: 0,
+    AvatarURL: 'a',
+    Username: 'a',
+    _id: 56e8805033f427a779122c19 } ]
+[0mGET /users [32m200 [0m6.508 ms - 488[0m
+[0mGET /undefined [33m404 [0m2.298 ms - 1795[0m
+[0mGET /a [33m404 [0m1.371 ms - 1795[0m
+[0mGET / [32m200 [0m0.824 ms - 1049[0m
+[0mGET /javascripts/comments.js [32m200 [0m0.995 ms - 2312[0m
+[0mGET /favicon.ico [33m404 [0m4.759 ms - 1795[0m
+[0mGET /favicon.ico [33m404 [0m1.357 ms - 1795[0m
